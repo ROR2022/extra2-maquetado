@@ -1,4 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__img--hero {
+    position: absolute;
+    z-index: -1000;
+  }
 }/*# sourceMappingURL=style.css.map */
