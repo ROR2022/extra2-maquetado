@@ -42,8 +42,11 @@
               data-bs-target="#offcanvasNavbar"
               aria-controls="offcanvasNavbar"
             >
-              <img class="border-0" src="../img/icon-hamburger.svg" alt="icon-hamburger" />
-              
+              <img
+                class="border-0"
+                src="../img/icon-hamburger.svg"
+                alt="icon-hamburger"
+              />
             </button>
             <div
               class="offcanvas offcanvas-end w-75 bg-black text-white"
@@ -63,13 +66,15 @@
                 ></button>
               </div>
               <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-center h-75 flex-grow-1 pe-3 justify-content-lg-end">
+                <ul
+                  class="navbar-nav justify-content-center h-75 flex-grow-1 pe-3 justify-content-lg-end"
+                >
                   <li class="nav-item">
                     <a
                       class="nav-link text-white btn btn-outline-secondary text-start border-0 text-uppercase"
                       href="#"
-                      >About</a>
-                    
+                      >About</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a
@@ -104,32 +109,101 @@
             </div>
           </div>
         </nav>
-        <h1 class="header__container--title display-4 text-secondary border border-secondary text-uppercase text-lighter"> Immersive experiences that deliver</h1>
+        <h1
+          class="header__container--title display-4 text-secondary border border-secondary text-uppercase text-lighter"
+        >
+          Immersive experiences that deliver
+        </h1>
       </div>
     </header>
 
-    <main>main content</main>
+    <main>
+      <section class="main__section--leader p-4">
+        <img
+          class="d-lg-none"
+          src="../img/mobile/image-interactive.jpg"
+          alt="image-interactive"
+        />
+        <img
+          class="d-none d-lg-block"
+          src="../img/desktop/image-interactive.jpg"
+          alt="image-interactive"
+        />
+        <div class="section__leader--text pt-3">
+          <h2 class="text-uppercase text-center">
+            The leader in interactive VR
+          </h2>
+          <p class="pt-3 text-secondary text-center">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </section>
+
+      <section class="main__section--creations">
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-lg-between px-5"
+        >
+          <h2 class="display-4 text-uppercase">Our creations</h2>
+          <button class="section__creations--btn btn btn-outline-dark d-none d-lg-block w-25 fs-5">
+            SEE ALL
+          </button>
+        </div>
+
+        <div class="section__creations--cards">
+
+          <div class="creations__cards--earth container mt-3">
+            <h2 class="text-white-50 display-6 text-start">DEEP EARTH</h2>
+          </div>
+          <div class="creations__cards--night container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">Night arcade</h2>
+          </div>
+          <div class="creations__cards--soccer container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">Soccer team VR</h2>
+          </div>
+          <div class="creations__cards--grid container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">The grid</h2>
+          </div>
+          <div class="creations__cards--above container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">From up above VR</h2>
+          </div>
+          <div class="creations__cards--pocket container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">Pocket borealis</h2>
+          </div>
+          <div class="creations__cards--curiosity container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">The curiosity</h2>
+          </div>
+          <div class="creations__cards--fisheye container mt-3">
+            <h2 class="text-white-50 display-6 text-start text-uppercase">Make it fisheye</h2>
+          </div>
+        </div>
+
+        <button class="section__creations--btn btn btn-outline-dark d-lg-none w-50 my-4">SEE ALL</button>
+      </section>
+    </main>
 
     <footer class="bg-dark text-white">
       <div>
-      <h2>loopstudios</h2>
-      <ul class="ps-0 text-secondary">
-        <li>About</li>
-        <li>Careers</li>
-        <li>Events</li>
-        <li>Products</li>
-        <li>Support</li>
-      </ul>
-    </div>
-      <div>
-      <div class="footer__icons">
-        <img src="../img/icon-facebook.svg" alt="icon-facebook">
-        <img src="../img/icon-twitter.svg" alt="icon-twitter">
-        <img src="../img/icon-pinterest.svg" alt="icon-pinterest">
-        <img src="../img/icon-instagram.svg" alt="icon-instagram">
+        <h2>loopstudios</h2>
+        <ul class="ps-0 text-secondary">
+          <li>About</li>
+          <li>Careers</li>
+          <li>Events</li>
+          <li>Products</li>
+          <li>Support</li>
+        </ul>
       </div>
-      <p class="text-secondary">© 2021 Loopstudios. All rights reserved.</p>
-    </div>
+      <div>
+        <div class="footer__icons">
+          <img src="../img/icon-facebook.svg" alt="icon-facebook" />
+          <img src="../img/icon-twitter.svg" alt="icon-twitter" />
+          <img src="../img/icon-pinterest.svg" alt="icon-pinterest" />
+          <img src="../img/icon-instagram.svg" alt="icon-instagram" />
+        </div>
+        <p class="text-secondary">© 2021 Loopstudios. All rights reserved.</p>
+      </div>
     </footer>
 
     <script
