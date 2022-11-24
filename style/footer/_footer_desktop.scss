@@ -1,0 +1,28 @@
+footer{
+  position: relative;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  ul{
+    display: flex;
+    li{
+      width: 100%;
+      text-align: center;
+      margin-right: 5%;
+      margin-top: 8%;
+    }
+  }
+  .footer__icons{
+    width: 100%;
+    margin-bottom: 10%;
+    text-align: end;
+    img{
+      margin: 0 3%;
+    }
+    
+  }
+  
+}

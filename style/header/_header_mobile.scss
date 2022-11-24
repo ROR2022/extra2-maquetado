@@ -1,5 +1,22 @@
 
-.header__img--hero{
+.header__img--heroMobile{
   position: absolute;
+  width: 100vw;
+  height: 100vh;
   z-index: -1000;
+}
+
+.header__nav--container{
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+.header__container--title{
+  position: relative;
+  width: 85%;
+  padding: 5%;
+  top: 40vw;
+  left: 5%;
 }
